@@ -30,7 +30,7 @@ experimnet4 <- sample(random_cups, size = 8)
 tea_data <- data.frame(experiment = rep(1:4, each = 8),
                        cup_number = 1:8,
                        cup_type = random_cups,
-                       tester_grouping) = c(experiment1, experiment2, experiment3, experiment4)
+                       tester_grouping) = c(experimnet1, experimnet2, experimnet3, experimnet4)
   mutate(result = ifelse(cup_type == tester_grouping, "Right","Wrong"))
 
 tea_data
